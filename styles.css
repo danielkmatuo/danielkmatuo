@@ -1,8 +1,7 @@
 .accordion {
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 8px;
   padding: 10px;
-  max-width: auto;
 }
 
 .accordion-header {
@@ -30,8 +29,21 @@
 
 h1 {
     font-family: sans-serif, Arial;
+    text-align: center;
 }
 
 h2 {
     font-family: sans-serif, Arial;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #fafafa, #77f1f7, #02d8e3);
+    background-attachment: fixed;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: black;
 }

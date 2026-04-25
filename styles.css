@@ -2,6 +2,9 @@
   border: 1px solid black;
   border-radius: 8px;
   padding: 10px;
+  margin-bottom: 25px;
+  background-color: #faf5f0;
+  box-shadow: 3px 3px 5px;
 }
 
 .accordion-header {
@@ -38,12 +41,33 @@ h2 {
 }
 
 body {
-    background: linear-gradient(to bottom, #fafafa, #77f1f7, #02d8e3);
+    /*background-color: #fce4cc;*/
+    background-image: url("Gemini_Generated_Image_slc4uislc4uislc4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    /*background: linear-gradient(to bottom, #fcd303, #52514b);
+    background-attachment: fixed*/;
 }
 
 hr {
   border: none;
   height: 2px;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.header-span {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff1e3;
+  border-radius: 8px;
 }

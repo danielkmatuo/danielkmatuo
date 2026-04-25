@@ -57,11 +57,13 @@ hr {
 }
 
 .header-span {
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .container {
